@@ -1,0 +1,105 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E5E5E5;
+}
+.hero_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero_content{
+    padding: 10rem;
+    
+}
+.hero_title{
+    font-size: 50px;
+    font-weight: 800;
+    color: #575757;
+    margin: 0;
+    
+}
+.skip_text{
+    color: #FBA24F;
+}
+.hero_sub_title{
+    color: #828282;
+    margin: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+.order_now{
+    padding: 20px 25px;
+    background-image: linear-gradient(60deg,#FBA24F,#FF1E1E);
+    color: white;
+    border-radius: 30px;
+    font-weight: 600;
+    background-color: none;
+    border: 1px solid #FBA24F;
+    transition: 0.3s;
+    cursor: pointer;
+    /* border: none; */
+}
+.order_now:hover{
+    background-image: none;
+    background-color: none;
+    border: 1px solid #FBA24F;
+    color: black;
+    transition: 0.3s;
+    background: none;
+}
+
+/* recipies card items */
+.recipies_container{
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+.card_item_wrapper{
+    display: flex;
+    justify-content: center;
+}
+.recipies_card_items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 14rem;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+.recipies_item{
+    width: 300px;
+    box-shadow: 0px 10px 11px 0px grey;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+}
+.item_image img{
+    width: 100%;
+}
+.item_content{
+    padding: 10px;
+}
+/* counter items style */
+.counter_container{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 85%;
+    margin: 0 auto;
+    box-shadow: 0px 10px 11px 0px grey;
+    border-radius: 10px;
+    margin-bottom: 5rem;
+}
+.counter_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 10rem;
+    padding: 40px;
+}
+.counter_item h3{
+    font-weight: 700;
+    font-size: 48px;
+    margin: 0;
+}
+.counter_item p{
+    margin: 0;
+    padding-top: 10px;
+}
