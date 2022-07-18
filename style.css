@@ -8,7 +8,7 @@ body{
     align-items: center;
 }
 .hero_content{
-    padding: 10rem;
+    padding: 5rem;
     
 }
 .hero_title{
@@ -60,7 +60,7 @@ body{
 .recipies_card_items{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap: 14rem;
+    grid-gap: 5rem;
     /* display: flex;
     flex-wrap: wrap; */
 }
